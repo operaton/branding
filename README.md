@@ -1,2 +1,5 @@
-# branding
-Branding assets for communicating about Operaton
+# Operaton Branding Assets
+
+Branding assets for communicating about Operaton.
+
+- Logos
