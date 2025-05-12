@@ -382,16 +382,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal .title {
-  color: var(--r-heading-color);
-  background-color: white;
+  color: white;
+  background-color: rgb(20,103,140);
   background-image: none;
 }
 
 .reveal .title h1 {
-  color: var(--r-heading-color);
-  background-color: white;
+  background-color: rgb(14,78,104);
   text-align: center;
-  margin: 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .reveal .title-logo {
@@ -401,6 +401,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   max-height: 15rem;
   height: auto;
   width: auto;
+  filter: invert(1);
   z-index: 2;
 }
 
