@@ -8,62 +8,8 @@
 
 # Our vision
 
-Operaton shall be a austainable BPM solution for the next decade.
-
-- Completely free Open Source (not only open core)
-- Community ownership via a legal foundation
-- No vendor lock-in, no licence fees, no restrictions
-- All components will be Open Source
-- Seamless migration from Camunda 7 CE to Operaton
-- Completely renew the code base including the webapps
-- Provide a welcoming environment for contributors
-- Enable professional services by third parties
-
----
-
-# Who are we?
-
-## Core Contributors
-- Karsten Thoms (itemis AG)
-  - Main contributor
-- Julian Haupt (backoffice.plus)
-  - Social Media manager
-  - Backports
-- Paul Hempel (Lambdaschmiede GmbH)
-  - New web applications
-  - operaton.org Website
-
----
-
-# Who are we?
-
-## Initiators
-
-- Tim Zöller (Lambdaschmiede GmbH)
-  - Former Camunda trainer
-- Andreas Zill (n3rdy by natur3 UG (haftungsbeschränkt))
-  - Documentation
-  - Legal
-- Andreas Klein (DemandFlow GmbH)
-  - Documentation
-  - Legal
-
----
-
-# Who are we?
-## Frequent Contributors
-
-- Arne Deutsch (itemis AG): JUnit 5 migration
-- Wolfgang Schmoller (itemis AG): JavaEE -> JakartaEE migration
-- Javad Malaquti (itemis AG): Docker, Helm Charts
-
----
-
-# History
-
-## October 2024
-- Creation of the fork
-- Re-Branding of Camunda 7 CE
+- Release of the first Camunda 7 fork on the market
+- Re-Branding of Camunda 7 CE as Operaton
 - Release 1.0.0-beta-1
 
 ---
@@ -92,7 +38,7 @@ Operaton shall be a austainable BPM solution for the next decade.
 ## May 2025
 - Release 1.0.0-beta-4
 - First release with full JakartaEE 10 migration
-- Drop  JavaEE support
+- Drop JavaEE support
 
 ---
 
@@ -148,9 +94,9 @@ Operaton shall be a austainable BPM solution for the next decade.
 - 21 contributors
 - Changed files: 18.903 (8.454 unique)
 - Changed lines:
-- +152.513
-- -180.351
-- => - 27.838
+  - +152.513
+  - -180.351
+  - => - 27.838
 - 3.800 workflow executions
 - 0 API breakages
 
@@ -173,7 +119,8 @@ Operaton shall be a austainable BPM solution for the next decade.
 
 ---
 
-# Outlook
+# Where to find us?
 
-- Documentation
-- Distributions
+- https://operaton.org
+- Join the forum
+- Join the Slack
