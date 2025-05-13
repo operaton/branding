@@ -1,8 +1,8 @@
 # What is Operaton?
 
 - The free Open Source BPM Engine for everyone
-- State-of-the-art with its own vision for the future
 - Fork of Camunda 7 CE
+- State-of-the-art with its own vision for the future
 
 ---
 
@@ -39,6 +39,7 @@
 - Release 1.0.0-beta-4
 - First release with full JakartaEE 10 migration
 - Drop JavaEE support
+- Enable integration tests for all distributions and with database using Testcontainers
 
 ---
 
@@ -102,11 +103,21 @@
 
 ---
 
+# Drop Legacy JavaEE
+
+- Camunda 7 code base is bound to JavaEE API (javax namespace)
+- JakartaEE API provided by build-time transformations
+- JavaEE dependency implied multiple dependencies on outdated libraries
+- Support of legacy containers (Tomcat 9, Wildfly 26) and build time transformations made the build complex
+
+---
+
 # Code Cleanup
 
 - Initial code base had 16k Sonar issues
 - 12k issues resolved
 - ~50% resolved with help of OpenRewrite
+  ![Sonar Issues Cleanup](assets/sonar-issues.png "Sonar Issues Cleanup")
 
 ---
 
@@ -114,6 +125,8 @@
 
 - 25k automated test cases in JUnit 4
 - Created a new extension library for JUnit 5
+- 48 / 57 modules fully migrated
+- Largest module `engine` in progress
 
 ![JUnit 5 migration status](assets/junit5-migration-progress.png "JUnit 5 Migration Status")
 
@@ -122,5 +135,5 @@
 # Where to find us?
 
 - https://operaton.org
-- Join the forum
-- Join the Slack
+- Join the forum https://forum.operaton.org/
+- Join the Slack 
