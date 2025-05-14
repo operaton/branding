@@ -8,16 +8,28 @@
 
 # Our vision
 
--Operaton shall be a austainable BPM solution for the next decade.
+Operaton shall be a sustainable BPM solution at least for the **next decade**.
 
-- Completely free Open Source (not only open core)
-- Community ownership via a legal foundation
+
+- Completely **Free Open Source** (not only open core)
+- Community ownership via a **legal foundation**
 - No vendor lock-in, no licence fees, no restrictions
 - All components will be Open Source
-- Seamless migration from Camunda 7 CE to Operaton
-- Completely renew the code base including the webapps
-- Provide a welcoming environment for contributors
-- Enable professional services by third parties
+- **Seamless migration** from Camunda 7 CE to Operaton
+- Completely **renew the code base** including the webapps
+- Provide an environment that is **welcoming for contributors**
+- Enable **professional services** by **third parties**
+
+---
+
+# Compatibility to Camunda 7 CE
+
+- REST API 100% the same
+- Database schema 100% the same
+- Camunda 7 BPMN models can be used without changes
+- No public API removed
+- Deprecated APIs documented, but not removed yet
+- 0 API breakages
 
 ---
 
@@ -29,16 +41,18 @@
 - Julian Haupt (backoffice.plus)
   - Social Media manager
   - Backports
-- Paul Hempel (Lambdaschmiede GmbH)
+- Paul Hempel (lambdaschmiede GmbH)
   - New web applications
   - operaton.org Website
+
+... and 20 more contributors
 
 ---
 
 # Who are we?
 ## Initiators
 
-- Tim Zöller (Lambdaschmiede GmbH)
+- Tim Zöller (lambdaschmiede GmbH)
   - Former Camunda trainer
 - Andreas Zill (n3rdy by natur3 UG (haftungsbeschränkt))
   - Documentation
@@ -47,14 +61,6 @@
   - Documentation
   - Legal
 
----
-
-# Who are we?
-## Frequent Contributors
-
-- Arne Deutsch (itemis AG): JUnit 5 migration
-- Wolfgang Schmoller (itemis AG): JavaEE -> JakartaEE migration
-- Javad Malaquti (itemis AG): Docker, Helm Charts
 
 ---
 
@@ -97,6 +103,10 @@
 
 ---
 
+# Why is Operaton still beta while other forks have already final releases?
+
+---
+
 # Roadmap
 
 ## Q2/2025
@@ -108,8 +118,13 @@
 - Release of new web apps beta (replacement for tasklist, cockpit and admin)
 - Prepare semi-automatic migration path to Operaton
 
+---
+
+# Roadmap
+
 ## October 2025
 - End of life Camunda 7.24 CE
+- Backport remaining features from Camunda 7.24 CE to Operaton
 - Release 1.0 based on 7.24 CE
 - Publish distributions via various packagers like Homebrew, Winget
 
@@ -127,9 +142,10 @@
 
 - Ritense
 - OpenBPM
-- Sucurema
 - Bundesministerium für Arbeit und Soziales
-- (others that don't want to get publicly named)
+- Sucurema
+
+(others that don't want to get publicly named (yet 😉))
 
 ---
 
@@ -146,14 +162,13 @@
 # Activity
 
 - 750 commits
-- 21 contributors
+- ~20 contributors
 - Changed files: 18.903 (8.454 unique)
 - Changed lines:
   - +152.513
   - -180.351
   - => - 27.838
-- 3.800 workflow executions
-- 0 API breakages
+- 3.800 CI workflow executions
 
 ---
 
@@ -186,8 +201,17 @@
 
 ---
 
-# Where to find us?
+# Final Words
 
+- We strongly believe that Operaton is the best BPM engine for the next decade
+- Shout out to Camunda for providing a great code base 🙏
+- Thanks to all contributors and supporters
+
+---
+
+# Where to contribute?
+
+- GitHub: https://github.com/operaton/operaton/
 - https://operaton.org
 - Join the forum https://forum.operaton.org/
 - Join the Slack
