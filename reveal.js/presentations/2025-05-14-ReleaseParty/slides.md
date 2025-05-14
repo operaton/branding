@@ -8,6 +8,60 @@
 
 # Our vision
 
+-Operaton shall be a austainable BPM solution for the next decade.
+
+- Completely free Open Source (not only open core)
+- Community ownership via a legal foundation
+- No vendor lock-in, no licence fees, no restrictions
+- All components will be Open Source
+- Seamless migration from Camunda 7 CE to Operaton
+- Completely renew the code base including the webapps
+- Provide a welcoming environment for contributors
+- Enable professional services by third parties
+
+---
+
+# Who are we?
+
+## Core Contributors
+- Karsten Thoms (itemis AG)
+  - Main contributor
+- Julian Haupt (backoffice.plus)
+  - Social Media manager
+  - Backports
+- Paul Hempel (Lambdaschmiede GmbH)
+  - New web applications
+  - operaton.org Website
+
+---
+
+# Who are we?
+## Initiators
+
+- Tim Zöller (Lambdaschmiede GmbH)
+  - Former Camunda trainer
+- Andreas Zill (n3rdy by natur3 UG (haftungsbeschränkt))
+  - Documentation
+  - Legal
+- Andreas Klein (DemandFlow GmbH)
+  - Documentation
+  - Legal
+
+---
+
+# Who are we?
+## Frequent Contributors
+
+- Arne Deutsch (itemis AG): JUnit 5 migration
+- Wolfgang Schmoller (itemis AG): JavaEE -> JakartaEE migration
+- Javad Malaquti (itemis AG): Docker, Helm Charts
+
+---
+
+# History
+
+## October 2024
+- Creation of the fork
 - Release of the first Camunda 7 fork on the market
 - Re-Branding of Camunda 7 CE as Operaton
 - Release 1.0.0-beta-1
@@ -136,4 +190,4 @@
 
 - https://operaton.org
 - Join the forum https://forum.operaton.org/
-- Join the Slack 
+- Join the Slack
