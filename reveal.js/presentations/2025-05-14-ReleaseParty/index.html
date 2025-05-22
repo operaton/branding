@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Operaton</title>
+
+  <link rel="stylesheet" href="../../dist/reset.css">
+  <link rel="stylesheet" href="../../dist/reveal.css">
+  <link rel="stylesheet" href="../../dist/theme/operaton.css">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class="title">
+        <img src="assets/operaton-logo.svg" alt="Operaton Logo" class="title-logo" />
+        <h1>Your way beyond Camunda 7 CE End-of-Life</h1>
+      </section>
+      <section data-markdown="slides.md"></section>
+      <section class="title">
+        <img src="assets/operaton-logo.svg" alt="Operaton Logo" class="title-logo" />
+        <h1>Q & A</h1>
+      </section>
+    </div>
+    <img src="assets/operaton-logo.svg" alt="Operaton Logo" class="slide-logo">
+  </div>
+
+  <script src="../../dist/reveal.js"></script>
+  <script src="../../plugin/notes/notes.js"></script>
+  <script src="../../plugin/markdown/markdown.js"></script>
+  <script src="../../plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+
+</body>
+
+</html>
