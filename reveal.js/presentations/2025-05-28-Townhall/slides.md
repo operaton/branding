@@ -17,14 +17,48 @@
 
 # Facts & Numbers
 
-- 750 commits
-- ~20 contributors
-- Changed files: 18.903 (8.454 unique)
-- Changed lines:
-  - +152.513
-  - -180.351
-  - => - 27.838
-- 3.800 CI workflow executions
+
+| Overall Repository Statistics     | 2025-03-14 <br/> - 2025-05-27 |
+|-----------------------------------|-------------------------------|
+| Number of commits:                | 251                           |
+| Total files changed (sum):        | 4534                          |
+| Unique files changed:             | 2371                          |
+| Lines added:                      | 42536                         |
+| Lines removed:                    | 45092                         |
+| Net lines difference (+add/-del): | -2556                         |
+| Avg. files changed per commit:    | 18.06                         |
+| CI Workflow executions            | 3.800                         | 
+
+---
+
+# Facts & Numbers
+
+New contributors (since last Townhall 2025-03-14)
+
+- Antoine Campbell
+- José Guilherme
+- Andreas Goß
+- Brijesh Thummar
+- Max Starikov
+- Tobias Unger
+
+Linked In Followers: 283
+
+<!--
+Evaluate with
+./.devenv/scripts/tools/git-stats.py --since=2025-03-14 --alias-file=./.devenv/scripts/tools/git-stats-aliases.json --blacklist=.devenv/scripts/tools/git-stats-blacklist.txt 
+-->
+
+--- 
+
+# Facts & Numbers: Early Adopters
+
+- Ritense
+- OpenBPM
+- Bundesministerium für Arbeit und Soziales
+- Sucurema
+
+(others that don't want to get publicly named (yet 😉))
 
 ---
 
@@ -50,8 +84,6 @@
 
 # Update: Operaton e.V.
 
-- On May 12th meeting with lawyer happened 
-
 ---
 
 # Update Documentation
@@ -72,8 +104,9 @@
 
 # Market situation other forks
 
-- CIB Seven
+- CIBSeven
 - Eximee BPMNS
+- Altkom
 
 ---
 
@@ -85,3 +118,5 @@
   - SpringBoot 3.5
 - Deprecations
 - JUnit 5 migration
+  - 48 / 57 modules fully migrated
+  - Largest module `engine` in progress
